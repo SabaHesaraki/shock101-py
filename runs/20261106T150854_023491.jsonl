@@ -1,0 +1,4 @@
+{"step": "model", "response": "{\"tool\": \"calc\", \"arg\": \"12*7\"}"}
+{"step": "tool", "name": "calc", "result": "84"}
+{"step": "model", "response": "{\"final\": \"12*7 = 84; UTC time: 2026-11-02T14:03:00Z\"}"}
+{"step": "final", "content": "12*7 = 84; UTC time: 2026-11-02T14:03:00Z"}

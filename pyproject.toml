@@ -1,0 +1,22 @@
+[project]
+name = "shock101-py"
+version = "0.1.0"
+description = "An Agent Mini-Project for SHOCK 101 PYTHON"
+readme = "README.md"
+authors = [
+    { name = "SabaHesaraki", email = "sanazhesaraki1369@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+shock101-py = "shock101_py:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
